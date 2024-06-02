@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p,span{
+    margin: 0;
+    padding: 0;
+}
+.img{
+    text-align: center;
+    margin-top: 10px;
+ 
+}
+nav{
+    position: absolute;
+    width: 100%;
+
+}
+.heading{
+    text-align: center;
+    color: #4c76ff;
+    font-size: 28px;
+}
+nav .menu ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+nav .menu ul li a{
+    color: #ffff;
+    font-size: 12px;
+    font-weight: 400;   
+}
+#banner{
+    padding: 78px 0 0 0 ;
+    background-image: url(../image/banner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#banner .banner_Cnt h1{
+    font-size: 62px;
+    color: white;
+    padding-bottom: 15px;
+    margin: 50px 0 0 0;
+}
+#banner .banner_Cnt .icons ul {
+ text-align: left;
+ padding: 40px 0;
+}
+#banner .banner_Cnt .icons ul li {
+    display: inline-block;
+}
+#banner .banner_Cnt .icons ul li span{
+    color: #939393;
+    margin: 0 5px;
+}
+
+
+#banner .banner_Cnt p{
+ color: #ffff;
+ font-size: 18px;
+ padding-top: 15px;
+
+}
+#Features{
+    padding: 50px 0;
+    background-color: #ebeaea;
+}
+#Features .Features_card{
+    margin: 85px 0;
+}
+#Features .Features_card .Features_info span{
+ color: #4c76ff;
+border-radius: 50%;
+border: 1px solid #4c76ff;
+padding: 10px;
+}
+#Features .Features_card .Features_det h4{
+    color: #062033;
+    font-size: 16.78px;
+}
+#Features .Features_card .Features_det p{
+    color: #062033;
+    font-size: 10.91px;
+    margin-top: 25px;
+}
+#sarajevo{
+    padding: 80px 0;
+    text-align: center;
+}
+#sarajevo p{
+    font-size: 15.08px;
+    color: #282528;
+    margin-bottom:70px ;
+}
+.sarajevo_card .sarajevo_img span{
+    color: #a9a9a9;
+    font-size: 25.5px;
+}
+.sarajevo_card .sarajevo_det{
+    text-align: left;
+}
+.sarajevo_card .sarajevo_det h4{
+    color: #282528;
+    font-size: 13.42px;
+    margin: 8px 0;
+    font-weight: bold;
+}
+.sarajevo_card .sarajevo_det p{
+    color: #282528;
+    font-size: 10.89px;
+    margin: 5px 0 80px 0;
+    font-weight: 400;
+}
+#Works{
+    padding: 50px 0;
+}
+#Works p{
+ text-align: center;
+ margin: 50px 0;
+}
+.p{
+    text-align: center;
+    margin: 50px 0;
+   }
+
+ .work_cards{
+    position: relative;
+   }
+   .overlay .row{
+    height: 100%;
+   }
+   #Works   .work_cards .overlay {
+    position: absolute;
+    inset: 0px;
+
+    background-color: #4c76ff;
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+   opacity: 0;
+   visibility: hidden;
+   margin-right: -18px;
+}
+
+   #Works   .work_cards .overlay .overlayCnt span{
+    color: #ffff;
+    border-radius: 1px solid white;
+    text-align: center;
+
+   }
+   #Works   .work_cards:hover .overlay{
+   opacity: 90%;
+   visibility: visible;
+   }
+   #Works   .work_cards  .overlay .overlayCnt h6{
+    color: #ffff;
+  font-weight: bold;
+  font-size: 13.6px;
+  text-align: center;
+
+  
+   }
+   #Works  .work_cards  .overlay .overlayCnt p{
+    color: #ffff;
+  font-weight: 400;
+  font-size: 10.27px;
+  text-align: center;
+   }
+   #team{
+    padding: 50px 0 80px 0;
+   }
+   .team_card img{
+    display: block;
+    width: 100%;
+   }
+   .team_card h6{
+    color: #282528;
+    font-size: 14.93px;
+    text-align: center;
+    margin: 20px 0 5px 0;
+   }
+   .team_card p{
+    color: #282528;
+    font-size: 11px;
+    text-align: center;
+   }
+   #team .team_card{
+    position: relative;
+   }
+   #team .team_card .team_overlay .row{
+   height: 100%;
+   }
+
+
+   #team   .team_overlay{
+    background-color: #4c76ff;
+    position: absolute;
+    top: 0;
+    padding: 12.5px;
+    transform: scale(0);
+   }
+   #team .team_card:hover .team_overlay {
+    transform: scale(1);
+   }
+#team .team_card .team_overlay .team_Cnt h6{
+    font-size: 13.27px;
+    font-weight: 700;
+    margin: 20px 0;
+    padding: 20px 0;
+}
+#team .team_card .team_overlay .team_Cnt p{
+    font-size: 13.27px;
+    font-weight: 400;
+}
+.overlay_socials ul{
+    display: block;
+    text-align: center;
+}
+#team .team_card .team_overlay .team_Cnt .overlay_socials ul li{
+    display: inline-block;
+    margin: 0 5px;
+    padding: 50px 0 20px 0;
+}
+
+.overlay_socials ul li span{
+    color: white;
+}
+#Fun_facts{
+    background-image: url(../image/funimg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 0 20px 0;
+}
+
+#Fun_facts .fun_cards > *{
+    color: white;
+    text-align: center;
+    margin: 10px 0;
+}
+#Fun_facts .fun_cards{
+    text-align: center;
+    margin: 20px 0;
+}
+#Fun_facts .fun_cards span{
+    font-size: 25px;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 20px 25px;
+}
+#Fun_facts .fun_cards h1{
+    margin-top: 30px;
+}
+#discuss{
+    padding: 50px 0;
+}
+#discuss .discuss_info h3{
+    font-size: 18.34px;
+    color: #062033;
+    margin-bottom: 35px;
+}
+#discuss .discuss_info p{
+    font-size: 13px;
+    color:#6a737b ;
+}
+#discuss .discuss_form h4{
+    margin-bottom: 40px;
+}
+.form_info input{
+    border: 0px;
+    border-bottom: 1px solid #5b646e;
+margin-bottom: 25px;
+}
+.form_info .form_nam #Name,
+.form_info .form_mail #email,
+.form_info .form_msg #msg
+{
+padding-bottom: 20px ;}
+.submit{
+    text-align: right;
+    background-color: white;
+}
+ button{
+    border: 0;
+   font-size: 13.84px;
+   color: black;
+
+
+}
+#discuss .discuss_icons ul{
+    margin: 10px 0;
+    padding: 24px 0;
+}
+#discuss .discuss_icons ul li span{
+ color: #6a737b;
+ font-size: 20px;
+
+}
+
+   
+
+
+
+
+
